@@ -1,0 +1,46 @@
+nav {
+  height: 70px;
+  font-size: 20px;
+}
+
+body {
+    position: relative;
+}
+/* Padding, jarak antara setiap pages */
+header {
+  padding: 136px 0 80px;
+}
+
+section {
+  padding: 100px 0;
+}
+
+/* Bottom to Top */
+#PageTop {
+    position:fixed;
+    bottom: 10px;
+    float: right;
+    left: 96.2%;
+    font-size: 28px;
+    line-height: 1.428571429;
+    border-radius: 15px;
+}
+
+#PageTop:hover {
+    background-color: #7dbbf1;
+}
+
+/* Zoom Hover image */
+.card{
+    width: 362px;
+}
+
+.zoom {
+  transition: transform .2s;
+  overflow:hidden;
+}
+
+.zoom:hover {
+  transform: scale(1.5);
+  position:static;
+}
